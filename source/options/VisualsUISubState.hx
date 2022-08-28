@@ -39,7 +39,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			'language',
 			'string',
 			'English',
-			['English', 'Russina']);
+			['English', 'Russian']);
 		addOption(option);
 
 		var option:Option = new Option('Note Splashes',
