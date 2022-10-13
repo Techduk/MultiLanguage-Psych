@@ -81,6 +81,9 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Переводчики движка'],
+			['Funduk (Фундук)',		'funduk',		'Дизайнер, один из первых, кто перевёл диалоги семпая на русский',								'',	'F73838'],
+			['PyroGuy (ПироМэн)',			'pyroguy',			'Кодер, человек, без которого не вышел бы нормальная поддержка языков',							'',		'666666'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],
