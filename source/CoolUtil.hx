@@ -26,6 +26,16 @@ class CoolUtil
 
 	public static var difficulties:Array<String> = [];
 
+	public static var difficultyArray:Array<String> = new Array<String>();
+
+	public static function init()
+	{
+		difficultyArray = new Array<String>();
+		difficultyArray.push(LanguageManager.getTextString('play_easy'));
+		difficultyArray.push(LanguageManager.getTextString('play_normal'));
+		difficultyArray.push(LanguageManager.getTextString('play_hard'));
+	}
+
 	inline public static function quantize(f:Float, snap:Float){
 		// changed so this actually works lol
 		var m:Float = Math.fround(f * snap);

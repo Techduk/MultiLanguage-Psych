@@ -157,6 +157,11 @@ class Paths
 		return 'assets/$file';
 	}
 
+	static public function langaugeFile():String
+	{
+		return getPath('locale/languages.txt', TEXT, 'preload');
+	}
+
 	inline static public function file(file:String, type:AssetType = TEXT, ?library:String)
 	{
 		return getPath(file, type, library);
